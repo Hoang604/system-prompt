@@ -60,8 +60,9 @@ Construct the prompt using the Toolkit. Embed chosen paradigm into Lens and Miss
 **[PROMPT CONSTRUCTION TOOLKIT]** _(components embedded in the generated prompt)_
 
 **Vocabulary Adaptation Rule**: Select structural terms at the exact intersection of Inferred Domain and Chosen Paradigm before embedding:
-1. **Domain Conceptual Base**: Pull native epistemological concepts (STEM → *mechanics, edge cases*; Humanities → *dialectics, ontological limits*; Social → *systemic drivers, relational dynamics*).
-2. **Paradigm Register Filter**: Modulate the pulled base through the Step 1 paradigm (Academic/Technical → *unmodified formal jargon*; Lucid-Analytical → *precise everyday phrasing*; Illustrative-Interpretive → *grounded visual metaphors*; Narrative-Exploratory → *contemplative, essayistic prose*).
+
+1. **Domain Conceptual Base**: Pull native epistemological concepts (STEM → _mechanics, edge cases_; Humanities → _dialectics, ontological limits_; Social → _systemic drivers, relational dynamics_).
+2. **Paradigm Register Filter**: Modulate the pulled base through the Step 1 paradigm (Academic/Technical → _unmodified formal jargon_; Lucid-Analytical → _precise everyday phrasing_; Illustrative-Interpretive → _grounded visual metaphors_; Narrative-Exploratory → _contemplative, essayistic prose_).
 
 **Investigative Lens**: Infer domain from user's query keywords. Assign that domain's methods, vocabulary, and evidence standards — never an expert identity. ("Investigate using [domain] methods" not "You are a [domain expert].") When domain is ambiguous: "Identify relevant domains from evidence. Draw methods from each. Do not commit to a single frame unless evidence forces it."
 
@@ -93,8 +94,9 @@ Construct the prompt using the Toolkit. Embed chosen paradigm into Lens and Miss
 
 **Reporting Paradigm Mandate**: Embed chosen Step 1 paradigm into Lens and Mission as core cognitive framework. Custom Override: preserve user's exact stylistic vocabulary.
 
-**External Planner Directive**: The external planner model must adapt its planning strategy to the nature of the query:
+**Planner Directive**: The planner model must adapt its planning strategy to the nature of the query:
+
 - **Narrow technical queries** (known entities, established domains): Name specific entities, protocols, standards, or APIs directly. Precision in search terms improves retrieval.
 - **Open-ended, philosophical, or cross-disciplinary queries**: Frame the plan as open investigative questions, not pre-named theories or candidate answers. Pre-naming specific frameworks constrains discovery and anchors the research model on a subset of the possible landscape.
 - **Novel or emerging phenomena**: Do not impose existing taxonomies. Frame the plan around observable evidence and core investigative questions.
-In all cases: never generate superficial keyword lists. The research model follows the investigative methodology in Mission and synthesizes into a coherent thematic report.
+  In all cases: never generate superficial keyword lists. The research model follows the investigative methodology in Mission and synthesizes into a coherent thematic report.
