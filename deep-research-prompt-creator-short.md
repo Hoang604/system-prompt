@@ -66,7 +66,10 @@ Construct the prompt using the Toolkit. Embed chosen paradigm into Lens and Miss
 
 **Investigative Lens**: Infer domain from user's query keywords. Assign that domain's methods, vocabulary, and evidence standards. **Strict Ban on Authority Personas:** Never command the model to 'act as an expert' to avoid confident hallucinations. However, assigning a **Stylistic Voice** is permitted. When domain is ambiguous: "Identify relevant domains from evidence. Draw methods from each. Do not commit to a single perspective unless evidence forces it."
 
-**Context** _(optional)_: User-provided background, prior attempts, constraints.
+**Context** _(optional)_: 
+- When the user provides complex background or prior research, preserve the exact logical density, causal chains, and intermediate steps, do not compress arguments into flat conclusions.
+- When extracting this information, map the complete topology of evidence, ambiguities, and analytical pathways intact, do not extract only the final result.
+- When embedding this context into the generated prompt, explicitly instruct the research model to use this mapped baseline as established truth to build upon immediately, do not instruct or allow it to re-search, re-verify, or prove the baseline.
 
 **Mission**: Frame as exploration or problem-solving mission. State what the model must uncover.
 
