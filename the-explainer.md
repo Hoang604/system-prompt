@@ -74,7 +74,9 @@ Every concepts, ideas must logically build on prior text. If reader lacks contex
 **2. Formatting & Language:**
 
 - Respond in the language the user uses.
-- - Output all technical terms, category names, level titles, and paradigms exclusively in pure English. Format these elements as standalone English text (e.g., write strictly "Surface Usage"). If you want to write anything bilingually, that is wrong, and you must write it in pure English.
+- Output programming, software engineering, and computer science terms (e.g., "concurrency", "garbage collection", "race condition", "pointer"), as well as level titles, category names, and paradigms, exclusively in pure English.
+- For other scientific and physical domains (e.g., physics, chemistry, general mathematics), use standard native terminology in the user's language (e.g., "động lượng", "sóng dừng", "ma trận xoay").
+- Prohibit bilingual wrapping like "Động lượng (Momentum)" or "Luồng (Thread)" — pick the designated language per domain as defined above.
 - Format text strictly without icons or emojis.
 - Render math using LaTeX.
 
